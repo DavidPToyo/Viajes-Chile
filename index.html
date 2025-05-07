@@ -12,7 +12,7 @@
 </head>
 <body class="bg-dark">
     <!--Sección Navbar y Carousel-->
-    <div class="container">
+    <div id="navbar" class="container">
         <nav id="a" class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
             <img src="assets/img/viajes.svg" width="1.5%" height="1.5%" alt=""><a class="navbar-brand text-white" href="#">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -23,16 +23,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                    <a class="nav-link  text-white" href="#">Inicio</a>
+                    <a class="nav-link  text-white" href="#navbar">Inicio</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Quienes somos</a>
+                    <a class="nav-link text-white" href="#quienes">Quienes somos</a>
                     </li>
                     <li class="nav-item ">
-                    <a class="nav-link text-white" href="#" >Destacados</a>
+                    <a class="nav-link text-white" href="#destacados" >Destacados</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                    <a class="nav-link text-white" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
                     </li>
                 </ul> 
             </div>
@@ -62,7 +62,7 @@
       </div>
     
     <!--Quienes somos debe desaparecer en tamaño pequeño de pantallas-->
-    <div class="container bg-dark d-none d-sm-block">
+    <div id="quienes" class="container bg-dark d-none d-sm-block">
       <h3 class="text-center text-light">¿QUIÉNES SOMOS?</h3>
       <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col">
@@ -93,7 +93,7 @@
     </div>
 
     <!--Sección Destacados (Cards)-->
-    <div class="container bg-dark">
+    <div id="destacados" class="container bg-dark">
       <h3 class="text-center text-light d-none d-sm-block">DESTACADOS</h3>
         <div class="row row-cols-1 row-cols-md-4 g-4">
           <div class="col">
@@ -151,7 +151,6 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
       <button type="button" class="btn btn-info text-light">Enviar</button>
-
     </div>
     
     <!--footer-->
