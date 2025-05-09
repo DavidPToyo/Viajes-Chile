@@ -9,3 +9,25 @@
     padding-right: 10%;
 }
 
+#quienes {
+    padding: 3%;
+
+}
+
+#destacados {
+    padding: 3%;
+}
+
+#contacto {
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+}
+
+footer {
+    display: flex;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
